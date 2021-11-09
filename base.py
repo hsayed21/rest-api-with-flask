@@ -30,5 +30,3 @@ class data(db.Model):
         db.session.delete(self)
         db.session.commit()
         
-    
-
